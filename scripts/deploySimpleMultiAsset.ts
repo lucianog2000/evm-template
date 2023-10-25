@@ -13,7 +13,7 @@ async function deployContracts(): Promise<void> {
   const contractFactory = await ethers.getContractFactory('SimpleMultiAsset');
   const args = [
     'ipfs://QmcmvhCT5AngUoxHuESdBLN1gMoNa5KLgnqbhTJYsE7rsw',
-    BigNumber.from(10),
+    BigNumber.from(10000),
     '0x48d113853023Ca865d9bc0Df8Df5d27de3AfB811',
     100,
   ] as const;
